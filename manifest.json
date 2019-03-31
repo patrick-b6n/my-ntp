@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "My New Tab Page",
-    "description": "Configure a URL as your New Tab Page",
+    "description": "",
     "version": "0.1",
     "incognito": "split",
     "chrome_url_overrides": {

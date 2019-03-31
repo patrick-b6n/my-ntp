@@ -33,7 +33,7 @@ class Options {
 
         if (!url && url === "") {
             chrome.storage.sync.remove(configKey);
-            this.setNotification("Successful saved");
+            this.setNotification("Saved!");
             return;
         }
 
@@ -46,7 +46,7 @@ class Options {
 
         const config = { [configKey]: url };
         chrome.storage.sync.set(config);
-        this.setNotification("Successful saved");
+        this.setNotification("Saved!");
     }
 
     clearNotification() {
