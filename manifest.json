@@ -1,13 +1,17 @@
 {
     "manifest_version": 2,
     "name": "My New Tab Page",
-    "description": "Overrides the new tab page",
+    "description": "Configure a URL as your New Tab Page",
     "version": "0.1",
     "incognito": "split",
     "chrome_url_overrides": {
-        "newtab": "newtab.html"
+        "newtab": "myNewTab.html"
     },
     "permissions": ["storage", "file:///*", "tabs"],
     "options_page": "options.html",
-    "web_accessible_resources": ["blank.html"]
+    "icons": {
+        "16": "./resources/icon16.png",
+        "48": "./resources/icon48.png",
+        "128": "./resources/icon128.png"
+    }
 }
