@@ -6,7 +6,7 @@
 
 It allows you to set a local file or website as your New Tab Page while keeping the focus on the address bar.
 
-This contains extension _no tracking, no ads and no bullshit_.
+This extension contains _no tracking, no ads and no bullshit_.
 
 ## Download
 
